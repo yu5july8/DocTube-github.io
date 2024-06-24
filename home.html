@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Welcome to DocTune</h2>
+<button onclick="window.location.href='{{ url_for('upload') }}'">Upload Document</button>
+<button onclick="window.location.href='{{ url_for('subscription') }}'">Manage Subscription</button>
+{% endblock %}
